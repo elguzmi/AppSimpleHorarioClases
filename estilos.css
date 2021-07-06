@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    z-index: 1;
+
+}
+
+body {
+    background-image: url(Imagenes/triangle-mosaic.png);
+    z-index: 2;
+    width: 100%;
+    margin: auto;
+}
+
+.general {
+    width: 90%;
+    background-color: white;
+    
+}
+
+.Horario {
+    margin-top: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+table tbody tr td{
+    cursor: pointer;
+}

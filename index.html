@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Horario de clase</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="container-fluid general">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container-fluid text-center">
+                <h1 class="display-3">Horario de clasess</h1>
+                <p class="lead">Horario de clases universitario</p>
+                <hr class="my-2">
+                <p style="text-decoration: underline;">Hecho por Santiago Guzman</p>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" id="Mostrar-horario" href="#" role="button">Abrir el horario</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="container-fluid Horario">
+            <table class="table table-striped table-inverse table-responsive table-dark ">
+                <thead class="thead-inverse">
+                    <tr>
+                        <th>Hora</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miercoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">6pm - 7pm</td>
+                        <td class="Programacion"> Lenguajes De Programacion(Developer)
+                            <div class="alert alert-danger" id="Info-Programer" role="alert">
+                              <h4 class="alert-heading"></h4>
+                              <p style="font-weight: bold;">Jhon Fredy Cuervo Gonzales</p>
+                              <p class="mb-0 text-center">jcuervogo@uninpahu.edu.co</p>
+                            </div>
+                            
+                        </td>
+                        <td class="Seguridad">Seguridad informatica
+                            <div class="alert alert-danger" id="Info-Seguridad" role="alert">
+                                <h4 class="alert-heading"></h4>
+                                <p style="font-weight: bold;">Oscar Alejandro Buendia</p>
+                                <p class="mb-0 text-center">obuendiago@uninpahu.edu.co</p>
+                              </div>
+                        </td>
+                        <td class="Seguridad">Seguridad informatica</td>
+                        <td class="TdTrabajoGrado"> Trabajo de grado de investigación</td>
+                        <td class="TdAuditoria">Auditoria de software</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">7pm - 8pm</td>
+                        <td class="Programacion"> Lenguajes De Programacion(Developer)</td>
+                        <td class="Seguridad">Seguridad informatica</td>
+                        <td class="Seguridad">Seguridad informatica</td>
+                        <td class="TdTrabajoGrado"> Trabajo de grado de investigación
+                            <div class="alert alert-danger" id="Info-TrabajoGrado" role="alert">
+                                <h4 class="alert-heading"></h4>
+                                <p style="font-weight: bold;">Juan Carlos Lopez Barragan</p>
+                                <p class="mb-0 text-center">jlopezba01@uninpahu.edu.co</p>
+                              </div>
+                        </td>
+                        <td class="TdAuditoria">Auditoria de software</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td scope="row">8pm - 9pm</td>
+                        <td class="TdTrabajoGrado">Trabajo de grado de investigación</td>
+                        <td class="Programacion"> Lenguajes De Programacion(Developer)</td>
+                        <td class="Tdebussines">E-Bussines
+                            <div class="alert alert-danger" id="Info-ebussines" role="alert">
+                                <h4 class="alert-heading"></h4>
+                                <p style="font-weight: bold;">Monica liliana Cuervo</p>
+                                <p class="mb-0 text-center">mcuervogo@uninpahu.edu.co</p>
+                              </div>
+                        </td>
+                        <td class="TdAuditoria">Auditoria de software
+                            <div class="alert alert-danger" id="Info-Auditoria" role="alert">
+                                <h4 class="alert-heading"></h4>
+                                <p style="font-weight: bold;">Javier Daza</p>
+                                <p class="mb-0 text-center">jdaza@uninpahu.edu.co</p>
+                              </div>
+                        </td>
+                        <td class="TdSeminario">Seminario</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">9pm - 10pm</td>
+                        <td class="TdTrabajoGrado">Trabajo de grado de investigación</td>
+                        <td class="Programacion"> Lenguajes De Programacion(Developer)</td>
+                        <td class="Tdebussines">E-Bussines</td>
+                        <td class="TdAuditoria">Auditoria de software</td>
+                        <td class="TdSeminario">Seminario
+                            <div class="alert alert-danger" id="Info-Seminario" role="alert">
+                                <h4 class="alert-heading"></h4>
+                                <p style="font-weight: bold;">Sara Milena Osorio Sanchez</p>
+                                <p class="mb-0 text-center">sosoriosa@uninpahu.edu.co</p>
+                              </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="6" style="text-align: center;">Horario 9no semestre de ingenieria de software</td>
+                </tfoot>
+            </table>
+
+
+        </div>
+    </div>\
+
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © <script> var fecha = new Date();
+          var ano = fecha.getFullYear();
+          document.write(ano); </script> Copyright:
+          <a class="text-dark" href="#">Santiago Guzman</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="js/Funciones.js"></script>
+</body>
+
+</html>
